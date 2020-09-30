@@ -1,68 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Dupa incercari indelungate si cateva ore bune de lucrat la acest proiect ma vad nevoit sa il 'predau' cu anumite compromisuri.. pentru a nu depasi deadline'ul de 4 ore desi cred ca am depasit cu aproape o ora ( nu incerc sa trisez )
 
-## Available Scripts
+### In primul rand nu am reusit sa 'manevrez' asa cum mi-as fi dorit datele primite prin queryul Graphql de pe mockup Api'ul primit: https://fakerql.stephix.uk/
 
-In the project directory, you can run:
+deoarece queryul pentru allPosts are probabil din schema setat un parametru 'count' pe care nu il pot omite. Astfel, inca din start trebuie sa specific cu cate postari o sa lucrez mai departe.. ceea ce nu e relevant fiindca as dori in primul rand sa obtin TOATE postarile apoi sa le filtrez obtinand doar postarile din anul 2019 (conform cerintei). Acesta ar fi setul de date cu care as fi lucrat mai departe. In schimb am lucrat cu 100 de postari pe care le primesc raspuns la queryul allPosts.
 
-### `npm start`
+### In al doilea rand nu am reusit sa inteleg prea bine conceptul VISX (https://github.com/airbnb/visx) fiind prima data cand am lucrat cu asa ceva si timpul de lucru destul de limitat. Cu toate acestea am reusit sa obtin un grafic basic (fara labeluri asa cum mi-as fi dorit) iar datele despre postari le-am afisat langa acest grafic.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Tin sa mentionez ca mi-a placut aceasta provocare si voi incerca in continuare sa o finalizez asa cum mi-as fi dorit inca din prima incercare.. (dar visx si documentatia lor mi-au cam pus capac)
